@@ -9,11 +9,9 @@ html(lang="ru")
         link(rel="stylesheet" href="./css/main.css")
     body
         #wrapper
-            //header
-            include _header.pug
+            block header
             block content
-            //footer
-            include _footer.pug
+            block footer
         script(src="./libs/jquery-3.2.1.min.js")
         script(src="./libs/jquery.fancybox.min.js")
         script(src="./libs/slick.min.js")
