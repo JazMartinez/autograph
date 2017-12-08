@@ -10,100 +10,136 @@
   </head>
   <body>
     <div id="wrapper">
-      <header class="header">
+      <header class="header light">
         <div class="container">
-          <div class="header-top row">
+          <div class="header-top row align-items-center justify-content-between">
             <div class="col-auto">
               <div class="logo"><a class="logo__link" href="/"><img class="logo__image" src="./img/logo.png" alt="#"></a></div>
             </div>
-            <div class="col-auto">
+            <div class="col-auto main-menu-block">
               <nav class="main-menu">
-                <ul>
-                  <li><a href="#">О компании</a></li>
-                  <li><a href="#">Услуги и цены</a></li>
-                  <li><a href="#">Наши работы</a></li>
-                  <li><a href="#">Контакты</a></li>
+                <ul class="row justify-content-center">
+                  <li class="col-auto"><a href="#">О компании</a></li>
+                  <li class="col-auto"><a href="#">Услуги и цены</a></li>
+                  <li class="col-auto"><a href="#">Наши работы</a></li>
+                  <li class="col-auto"><a href="#">Контакты</a></li>
                 </ul>
               </nav>
             </div>
             <div class="col-auto">
               <div class="social row no-gutters">
-                <div class="col-auto"><a class="social__item" href="#"></a></div>
-                <div class="col-auto"><a class="social__item" href="#"></a></div>
-                <div class="col-auto"><a class="social__item" href="#"></a></div>
-                <div class="col-auto"><a class="social__item" href="#"></a></div>
+                <div class="col-auto"><a class="social__item" href="#"><img src="./img/social/1.svg"></a></div>
+                <div class="col-auto"><a class="social__item" href="#"><img src="./img/social/2.svg"></a></div>
+                <div class="col-auto"><a class="social__item" href="#"><img src="./img/social/3.svg"></a></div>
+                <div class="col-auto"><a class="social__item" href="#"><img src="./img/social/4.svg"></a></div>
               </div>
             </div>
           </div>
-          <div class="header-bottom row">
+          <div class="header-bottom row align-items-center justify-content-between">
             <div class="col-auto">
               <p class="tagline">Центр автостайлинга, детейлинга и рекламы на транспорте в Иркутске и Улан-Удэ</p>
             </div>
             <div class="col-auto">
-              <div class="phone">
+              <div class="phone row no-gutters justify-content-between">
                 <p>Для частных лиц<span>пн-пт 9 – 19, сб-вс 11 – 17</span></p><a href="#">34-71-57</a>
               </div>
             </div>
             <div class="col-auto">
-              <div class="phone">
+              <div class="phone row no-gutters justify-content-between">
                 <p>Для компаний<span>пн-пт 9 – 18</span></p><a href="#">33-94-33</a>
               </div>
             </div>
-            <div class="col-auto"><a class="button" href="#">Заказать звонок</a></div>
+            <div class="col-auto"><a class="button" href="#"><i class="phone-icon"></i> Заказать звонок</a></div>
           </div>
         </div>
       </header>
       <main class="main-content">
         <div class="tabs">
           <div class="container">
-            <div class="tabs-panel row no-gutters">
-              <div class="col"><a class="tabs-panel__link" href="#tab-1">Автостайлинг</a></div>
-              <div class="col"><a class="tabs-panel__link" href="#tab-2">Антигравийная защита</a></div>
-              <div class="col"><a class="tabs-panel__link" href="#tab-3">Детейлинг</a></div>
-              <div class="col"><a class="tabs-panel__link" href="#tab-4">Реклама на транспорте</a></div>
+            <div class="tabs-panel row no-gutters justify-content-between">
+              <div class="col-auto"><a class="active tabs-panel__link row align-items-center no-gutters justify-content-center" href="#tab-1">
+                  <div class="col-auto">
+                    <div class="tabs-panel__icon __icon_1"><img src="./img/tabs/1.png" alt="#"></div>
+                  </div>
+                  <div class="col-auto"><span>Автостайлинг</span></div></a></div>
+              <div class="col-auto"><a class="tabs-panel__link row align-items-center no-gutters justify-content-center" href="#tab-2">
+                  <div class="col-auto">
+                    <div class="tabs-panel__icon __icon_2"><img src="./img/tabs/2.png" alt="#"></div>
+                  </div>
+                  <div class="col-auto"><span>Антигравийная защита</span></div></a></div>
+              <div class="col-auto"><a class="tabs-panel__link row align-items-center no-gutters justify-content-center" href="#tab-3">
+                  <div class="col-auto">
+                    <div class="tabs-panel__icon __icon_3"><img src="./img/tabs/3.png" alt="#"></div>
+                  </div>
+                  <div class="col-auto"><span>Детейлинг</span></div></a></div>
+              <div class="col-auto"><a class="tabs-panel__link row align-items-center no-gutters justify-content-center" href="#tab-4">
+                  <div class="col-auto">
+                    <div class="tabs-panel__icon __icon_4"><img src="./img/tabs/4.png" alt="#"></div>
+                  </div>
+                  <div class="col-auto"><span>Реклама на транспорте</span></div></a></div>
             </div>
             <div class="tabs-content-block">
-              <div class="tabs-content" id="tab-1">
+              <div class="active tabs-content" id="tab-1" style="background-image: url('./img/tabs/slider/1.jpg');">
                 <div class="tabs-content__top">
                   <h2>Автомобильная графика</h2>
                   <p>Оклейка авто виниловой пленкой: самый быстрый и безопасный способ преобразить ваш автомобиль <br>Всего за пару дней обновим кузов и салон вашего автомобиля</p>
-                  <div class="tabs-content__tags"><a href="#">Винилография</a><a href="#">Наклейки на автомобиль</a><a href="#">Аквапринт</a></div>
+                  <div class="tabs-content__tags row justify-content-center">
+                    <div class="col-auto"><a href="#">Винилография</a></div>
+                    <div class="col-auto"><a href="#">Наклейки на автомобиль</a></div>
+                    <div class="col-auto"><a href="#">Аквапринт</a></div>
+                  </div>
                 </div>
                 <div class="tabs-content__bottom"><a class="button" href="#">узнать подробнее</a></div>
               </div>
-              <div class="tabs-content" id="tab-2">
+              <div class="tabs-content" id="tab-2" style="background-image: url('./img/tabs/slider/2.jpg');">
                 <div class="tabs-content__top">
                   <h2>Антигравийная защита от сколов</h2>
                   <p>Защита кузова автомобиля от сколов и царапин прозрачными полиуретановыми пленками. <br>Всего 2 часа работы и ЛКП вашей техники в сохранности до 5 лет!</p>
-                  <div class="tabs-content__tags"><a href="#">Для автомобилей</a><a href="#">Для мотоциклов</a><a href="#">Для катеров и яхт</a><a href="#">Для вертолетов и самолетов</a></div>
+                  <div class="tabs-content__tags row justify-content-center">
+                    <div class="col-auto"><a href="#">Для автомобилей</a></div>
+                    <div class="col-auto"><a href="#">Для мотоциклов</a></div>
+                    <div class="col-auto"><a href="#">Для катеров и яхт</a></div>
+                    <div class="col-auto"><a href="#">Для вертолетов и самолетов</a></div>
+                  </div>
                 </div>
                 <div class="tabs-content__bottom"><a class="button" href="#">узнать подробнее</a></div>
               </div>
-              <div class="tabs-content" id="tab-3">
+              <div class="tabs-content" id="tab-3" style="background-image: url('./img/tabs/slider/3.jpg');">
                 <div class="tabs-content__top">
                   <h2>Услуги детейлинга</h2>
                   <p>Чистка и полировка автомобилей, нанесение защитных жидких покрытий <br>Восстановим прежний блеск и сохраним вид нового автомобиля надолго</p>
-                  <div class="tabs-content__tags"><a href="#">Полировка</a><a href="#">Жидкое стекло</a><a href="#">Нанокерамика</a></div>
+                  <div class="tabs-content__tags row justify-content-center">
+                    <div class="col-auto"><a href="#">Полировка</a></div>
+                    <div class="col-auto"><a href="#">Жидкое стекло</a></div>
+                    <div class="col-auto"><a href="#">Нанокерамика</a></div>
+                  </div>
                 </div>
                 <div class="tabs-content__bottom"><a class="button" href="#">узнать подробнее</a></div>
               </div>
-              <div class="tabs-content" id="tab-4">
+              <div class="tabs-content" id="tab-4" style="background-image: url('./img/tabs/slider/4.jpg');">
                 <div class="tabs-content__top">
                   <h2>Реклама на транспорте</h2>
                   <p>Брендирование коммерческих автомобилей и реклама снаружи и внутри общественного транспорта <br>Реклама с максимальным охватом потребителей в разных частях города и области</p>
-                  <div class="tabs-content__tags"><a href="#">Реклама на общественном транспорте</a><a href="#">Брендирование коммерческих  автомобилей</a><a href="#">Реклама в салонах общественного транспорта</a><a href="#">Быстросъемная реклама и магнитные наклейки</a></div>
+                  <div class="tabs-content__tags row justify-content-center">
+                    <div class="col-auto"><a href="#">Реклама на общественном транспорте</a></div>
+                    <div class="col-auto"><a href="#">Брендирование коммерческих  автомобилей</a></div>
+                    <div class="col-auto"><a href="#">Реклама в салонах общественного транспорта</a></div>
+                    <div class="col-auto"><a href="#">Быстросъемная реклама и магнитные наклейки</a></div>
+                  </div>
                 </div>
                 <div class="tabs-content__bottom"><a class="button" href="#">узнать подробнее</a></div>
               </div>
             </div>
           </div>
         </div>
-        <div class="video">
+        <div class="video light">
           <div class="container">
             <div class="logo"><a class="logo__link" href="/"><img class="logo__image" src="./img/logo.png" alt="#"></a></div>
             <h2>Центр стайлинга и детейлинга  «Автограф»</h2>
             <p>С 2002 года делаем автомобили своих клиентов уникальными. Первые на рынке Восточной Сибири предложили услуги автостайлинга: аэрографию и винилографию. Предоставляем полный комплекс услуг детейлинга: очистка и полировка кузова, покрытие защитными составами –  нанокерамикой, жидким стеклом, а также защиту от сколов пленкой. Для бизнеса у нас есть услуги по брендированию коммерческого транспорта и транзитной рекламе, печать на интерьерных станках любой продукции высокого разрешения. За 15 лет выполнили более 10 000 заказов и не собираемся останавливаться на достигнутом. Мы делаем свою работу с любовью!</p>
-            <div class="video-container"></div>
+            <div class="video-container">
+              <iframe width="100%" height="720" src="https://www.youtube.com/embed/oZuUIu-iWAI?rel=0" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
+            </div>
           </div>
         </div>
         <div class="services">
@@ -114,7 +150,7 @@
                 <div class="services-item">
                   <div class="services-item__image"><img src="./img/services/1.jpg" alt="#"></div>
                   <div class="services-item__desc">
-                    <div class="services-item__icon"><img src="./img/" alt="#"></div>
+                    <div class="services-item__icon"><img src="./img/services/icons/1.png" alt="#"></div>
                     <p class="services-item__name">Винилография</p>
                     <p class="services-item__text">Полная или частичная оклейка виниловой пленкой или наклейками</p>
                   </div>
@@ -124,7 +160,7 @@
                 <div class="services-item">
                   <div class="services-item__image"><img src="./img/services/2.jpg" alt="#"></div>
                   <div class="services-item__desc">
-                    <div class="services-item__icon"><img src="./img/" alt="#"></div>
+                    <div class="services-item__icon"><img src="./img/services/icons/2.png" alt="#"></div>
                     <p class="services-item__name">Антигравийная пленка</p>
                     <p class="services-item__text">Защита кузова от сколов и царапин прозрачной полиуретановой пленкой</p>
                   </div>
@@ -134,7 +170,7 @@
                 <div class="services-item">
                   <div class="services-item__image"><img src="./img/services/3.jpg" alt="#"></div>
                   <div class="services-item__desc">
-                    <div class="services-item__icon"><img src="./img/" alt="#"></div>
+                    <div class="services-item__icon"><img src="./img/services/icons/3.png" alt="#"></div>
                     <p class="services-item__name">Детейлинг</p>
                     <p class="services-item__text">Полировка кузова авто, защита жидким стеклом и нанокерамикой</p>
                   </div>
@@ -144,29 +180,37 @@
                 <div class="services-item">
                   <div class="services-item__image"><img src="./img/services/4.jpg" alt="#"></div>
                   <div class="services-item__desc">
-                    <div class="services-item__icon"><img src="./img/" alt="#"></div>
+                    <div class="services-item__icon"><img src="./img/services/icons/4.png" alt="#"></div>
                     <p class="services-item__name">Реклама на транспорте</p>
                     <p class="services-item__text">Брендирование автомобилей, реклама на трамваях, троллейбусах и автобусах</p>
                   </div>
                 </div>
               </div>
               <div class="col-md-6 col-xs-12">
-                <div class="services-item">
-                  <div class="services-item__image"><img src="./img/services/5.jpg" alt="#"></div>
-                  <div class="services-item__desc">
-                    <div class="services-item__icon"><img src="./img/" alt="#"></div>
-                    <p class="services-item__name">Тонировка зданий</p>
-                    <p class="services-item__text">Оклейка стеклянных фасадов цветной, солнцезащитной или светоотражающей зеркальной пленкой и бронирование стекол</p>
+                <div class="services-item row no-gutters">
+                  <div class="col-md-6">
+                    <div class="services-item__image"><img src="./img/services/5.jpg" alt="#"></div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="services-item__desc">
+                      <div class="services-item__icon"><img src="./img/services/icons/5.png" alt="#"></div>
+                      <p class="services-item__name">Тонировка зданий</p>
+                      <p class="services-item__text">Оклейка стеклянных фасадов цветной, солнцезащитной или светоотражающей зеркальной пленкой и бронирование стекол</p>
+                    </div>
                   </div>
                 </div>
               </div>
               <div class="col-md-6 col-xs-12">
-                <div class="services-item">
-                  <div class="services-item__image"><img src="./img/services/6.jpg" alt="#"></div>
-                  <div class="services-item__desc">
-                    <div class="services-item__icon"><img src="./img/" alt="#"></div>
-                    <p class="services-item__name">Интерьерная печать</p>
-                    <p class="services-item__text">Печать фотообоев, любой рекламной продукции, печать на холсте, изготовление наклеек и стикеров высокого качества и любого размера</p>
+                <div class="services-item row no-gutters">
+                  <div class="col-md-6">
+                    <div class="services-item__image"><img src="./img/services/6.jpg" alt="#"></div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="services-item__desc">
+                      <div class="services-item__icon"><img src="./img/services/icons/6.png" alt="#"></div>
+                      <p class="services-item__name">Интерьерная печать</p>
+                      <p class="services-item__text">Печать фотообоев, любой рекламной продукции, печать на холсте, изготовление наклеек и стикеров высокого качества и любого размера</p>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -187,42 +231,42 @@
               <div class="row">
                 <div class="col-md-4">
                   <div class="advantages-item">
-                    <div class="advantages-item__icon"><img src="./img/" alt="#"></div>
+                    <div class="advantages-item__icon"><img src="./img/icons/1.png" alt="#"></div>
                     <p class="advantages-item__name">Только лучшие материалы</p>
                     <p class="advantages-item__text">Используем автопленку европейских и американских производителей: 3M, ORACAL, HEXIS, KPMF, и защитные покрытия Ceramic PRO и Krytex 9</p>
                   </div>
                 </div>
                 <div class="col-md-4">
                   <div class="advantages-item">
-                    <div class="advantages-item__icon"><img src="./img/" alt="#"></div>
+                    <div class="advantages-item__icon"><img src="./img/icons/2.png" alt="#"></div>
                     <p class="advantages-item__name">Свои помещения для оклейки</p>
                     <p class="advantages-item__text">Собственные теплые боксы для грузовых и легковых автомобилей. Все боксы оборудованы камерами и сигнализацией. Можно оставить транспорт на ночь</p>
                   </div>
                 </div>
                 <div class="col-md-4">
                   <div class="advantages-item">
-                    <div class="advantages-item__icon"><img src="./img/" alt="#"></div>
+                    <div class="advantages-item__icon"><img src="./img/icons/3.png" alt="#"></div>
                     <p class="advantages-item__name">Высокое качество печати</p>
                     <p class="advantages-item__text">Весь материал печатаем на оборудовании с фотокачеством экосольвентными чернилами. Четкая передача цвета и деталей рисунка</p>
                   </div>
                 </div>
                 <div class="col-md-4">
                   <div class="advantages-item">
-                    <div class="advantages-item__icon"><img src="./img/" alt="#"></div>
+                    <div class="advantages-item__icon"><img src="./img/icons/4.png" alt="#"></div>
                     <p class="advantages-item__name">Настоящая гарантия</p>
                     <p class="advantages-item__text">Знаем и соблюдаем все технологии, поэтому не боимся давать гарантию: 6 месяцев на все услуги+ до 3 лет на материалы</p>
                   </div>
                 </div>
                 <div class="col-md-4">
                   <div class="advantages-item">
-                    <div class="advantages-item__icon"><img src="./img/" alt="#"></div>
+                    <div class="advantages-item__icon"><img src="./img/icons/5.png" alt="#"></div>
                     <p class="advantages-item__name">Продолжительный срок службы</p>
                     <p class="advantages-item__text">При печати мягкими экосольвентными чернилами не разрушается слой клея. Это позволяет сохранить срок службы пленки, заявленный производителем</p>
                   </div>
                 </div>
                 <div class="col-md-4">
                   <div class="advantages-item">
-                    <div class="advantages-item__icon"><img src="./img/" alt="#"></div>
+                    <div class="advantages-item__icon"><img src="./img/icons/6.png" alt="#"></div>
                     <p class="advantages-item__name">Профессиональный подход</p>
                     <p class="advantages-item__text">Обучаем и проводим аттестацию всех мастеров. Единственные в Иркутске сертифицированные в Russian Wrapping School по детейлингу и оклейке пленками.</p>
                   </div>
@@ -268,23 +312,23 @@
             </div>
           </div>
         </div>
-        <div class="gallery">
+        <div class="gallery light">
           <div class="container">
             <h2>примеры работ, которыми мы гордимся</h2>
             <div class="gallery-slider">
               <div class="gallery-slide">
                 <div class="row">
                   <div class="col-md-6"><a class="gallery-slide__item" href="#">
-                      <div class="gallery-slide__image"><img src="./img/gallery/1.jpg"></div>
+                      <div class="gallery-slide__image"><img src="./img/gallery/1.png" alt="#"></div>
                       <p class="gallery-slide__caption">Оклейка авиапарка «ИрАэро»</p></a></div>
                   <div class="col-md-6"><a class="gallery-slide__item" href="#">
-                      <div class="gallery-slide__image"><img src="./img/gallery/1.jpg"></div>
+                      <div class="gallery-slide__image"><img src="./img/gallery/2.png" alt="#"></div>
                       <p class="gallery-slide__caption">Крупные торговые компании</p></a></div>
                   <div class="col-md-6"><a class="gallery-slide__item" href="#">
-                      <div class="gallery-slide__image"><img src="./img/gallery/1.jpg"></div>
+                      <div class="gallery-slide__image"><img src="./img/gallery/3.png" alt="#"></div>
                       <p class="gallery-slide__caption">Дорогие автомобили</p></a></div>
                   <div class="col-md-6"><a class="gallery-slide__item" href="#">
-                      <div class="gallery-slide__image"><img src="./img/gallery/1.jpg"></div>
+                      <div class="gallery-slide__image"><img src="./img/gallery/4.png" alt="#"></div>
                       <p class="gallery-slide__caption">Участники «БайкалМоторШоу»</p></a></div>
                 </div>
               </div>
@@ -296,22 +340,21 @@
           <div class="container">
             <h2>Наши корпоративные клиенты</h2>
             <div class="partners-items">
-              <div class="row">
+              <div class="row justify-content-between">
                 <div class="col-auto"><img class="partners-image" src="./img/partners/1.png" alt="#"></div>
-                <div class="col-auto"><img class="partners-image" src="./img/partners/1.png" alt="#"></div>
-                <div class="col-auto"><img class="partners-image" src="./img/partners/1.png" alt="#"></div>
-                <div class="col-auto"><img class="partners-image" src="./img/partners/1.png" alt="#"></div>
-                <div class="col-auto"><img class="partners-image" src="./img/partners/1.png" alt="#"></div>
-                <div class="col-auto"><img class="partners-image" src="./img/partners/1.png" alt="#"></div>
-                <div class="col-auto"><img class="partners-image" src="./img/partners/1.png" alt="#"></div>
-                <div class="col-auto"><img class="partners-image" src="./img/partners/1.png" alt="#"></div>
-                <div class="col-auto"><img class="partners-image" src="./img/partners/1.png" alt="#"></div>
-                <div class="col-auto"><img class="partners-image" src="./img/partners/1.png" alt="#"></div>
-                <div class="col-auto"><img class="partners-image" src="./img/partners/1.png" alt="#"></div>
-                <div class="col-auto"><img class="partners-image" src="./img/partners/1.png" alt="#"></div>
-                <div class="col-auto"><img class="partners-image" src="./img/partners/1.png" alt="#"></div>
-                <div class="col-auto"><img class="partners-image" src="./img/partners/1.png" alt="#"></div>
-                <div class="col-auto"><img class="partners-image" src="./img/partners/1.png" alt="#"></div>
+                <div class="col-auto"><img class="partners-image" src="./img/partners/2.png" alt="#"></div>
+                <div class="col-auto"><img class="partners-image" src="./img/partners/3.png" alt="#"></div>
+                <div class="col-auto"><img class="partners-image" src="./img/partners/4.png" alt="#"></div>
+                <div class="col-auto"><img class="partners-image" src="./img/partners/5.png" alt="#"></div>
+                <div class="col-auto"><img class="partners-image" src="./img/partners/6.png" alt="#"></div>
+                <div class="col-auto"><img class="partners-image" src="./img/partners/7.png" alt="#"></div>
+                <div class="col-auto"><img class="partners-image" src="./img/partners/8.png" alt="#"></div>
+                <div class="col-auto"><img class="partners-image" src="./img/partners/9.png" alt="#"></div>
+                <div class="col-auto"><img class="partners-image" src="./img/partners/10.png" alt="#"></div>
+                <div class="col-auto"><img class="partners-image" src="./img/partners/11.png" alt="#"></div>
+                <div class="col-auto"><img class="partners-image" src="./img/partners/12.png" alt="#"></div>
+                <div class="col-auto"><img class="partners-image" src="./img/partners/13.png" alt="#"></div>
+                <div class="col-auto"><img class="partners-image" src="./img/partners/14.png" alt="#"></div>
               </div>
             </div>
           </div>
@@ -323,86 +366,110 @@
             <div class="reviews__row row">
               <div class="col-md-6">
                 <div class="reviews-item">
-                  <div class="reviews-item__top row">
-                    <div class="reviews-item__image"><img src="./img/reviews/1.jpg" alt="#"></div>
+                  <div class="reviews-item__top">
+                    <div class="reviews-item__image"><img src="./img/reviews/main.png" alt="#"></div>
                     <div class="reviews-item__desc">
                       <p class="reviews-item__name">Lorem ipsum</p>
                       <p>dolor sit amet, consectetur adipiscing elit. Morbi lobortis, nibh quis consequat bibendum, lacus quam ultricies erat, nec ullamcorper arcu turpis ac nisi. Duis egestas ex id feugiat scelerisque.</p>
                     </div>
                   </div>
                   <div class="reviews-item__bottom row">
-                    <div class="col-md-3"><img src="./img/reviews/min/1.jpg" alt="#"></div>
-                    <div class="col-md-3"><img src="./img/reviews/min/1.jpg" alt="#"></div>
-                    <div class="col-md-3"><img src="./img/reviews/min/1.jpg" alt="#"></div>
-                    <div class="col-md-3"><img src="./img/reviews/min/1.jpg" alt="#"></div>
+                    <div class="col-md-3"><img src="./img/reviews/second.png" alt="#"></div>
+                    <div class="col-md-3"><img src="./img/reviews/second.png" alt="#"></div>
+                    <div class="col-md-3"><img src="./img/reviews/second.png" alt="#"></div>
+                    <div class="col-md-3"><img src="./img/reviews/second.png" alt="#"></div>
                   </div>
                 </div>
               </div>
               <div class="col-md-6">
                 <div class="reviews-item">
-                  <div class="reviews-item__top row">
-                    <div class="reviews-item__image"><img src="./img/reviews/1.jpg" alt="#"></div>
+                  <div class="reviews-item__top">
+                    <div class="reviews-item__image"><img src="./img/reviews/main.png" alt="#"></div>
                     <div class="reviews-item__desc">
                       <p class="reviews-item__name">Lorem ipsum</p>
                       <p>dolor sit amet, consectetur adipiscing elit. Morbi lobortis, nibh quis consequat bibendum, lacus quam ultricies erat, nec ullamcorper arcu turpis ac nisi. Duis egestas ex id feugiat scelerisque.</p>
                     </div>
                   </div>
                   <div class="reviews-item__bottom row">
-                    <div class="col-md-3"><img src="./img/reviews/min/1.jpg" alt="#"></div>
-                    <div class="col-md-3"><img src="./img/reviews/min/1.jpg" alt="#"></div>
-                    <div class="col-md-3"><img src="./img/reviews/min/1.jpg" alt="#"></div>
-                    <div class="col-md-3"><img src="./img/reviews/min/1.jpg" alt="#"></div>
+                    <div class="col-md-3"><img src="./img/reviews/second.png" alt="#"></div>
+                    <div class="col-md-3"><img src="./img/reviews/second.png" alt="#"></div>
+                    <div class="col-md-3"><img src="./img/reviews/second.png" alt="#"></div>
+                    <div class="col-md-3"><img src="./img/reviews/second.png" alt="#"></div>
                   </div>
                 </div>
               </div>
-            </div><a class="reviews__show-more" href="#">Показать больше отзывов</a>
+            </div><a class="reviews__show-more" href="#"><span>Показать больше отзывов</span></a>
+          </div>
+        </div>
+        <div class="callback">
+          <div class="container">
+            <h2>Нужна консультация по подбору услуг? <br>Оставьте номер, и мы свяжемся с вами в течение 15 минут.</h2>
+            <form class="form-send" action="#" method="post">
+              <div class="form-send__row row justify-content-center">
+                <div class="col-md-3">
+                  <div class="form-send__group">
+                    <input type="text" name="name" placeholder="Имя">
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="form-send__group">
+                    <input type="text" name="phone" placeholder="Телефон" required>
+                  </div>
+                </div>
+                <div class="col-md-3">
+                  <div class="form-send__group">
+                    <button class="button" type="submit">Позвоните мне</button>
+                  </div>
+                </div>
+              </div>
+            </form>
           </div>
         </div>
       </main>
       <footer class="footer">
         <div class="footer-top">
           <div class="container">
-            <nav class="footer-menu footer-top__row row">
+            <nav class="footer-menu footer-top__row row justify-content-between">
               <div class="col-auto">
                 <ul>
-                  <li class="footer-menu__main-item"><a href="#"></a></li>
-                  <li><a href="#"></a></li>
-                  <li><a href="#"></a></li>
-                  <li><a href="#"></a></li>
-                  <li><a href="#"></a></li>
+                  <li class="footer-menu__main-item"><a href="#">Автостайлинг</a></li>
+                  <li><a href="#">Замена цвета плёнкой</a></li>
+                  <li><a href="#">Винилография</a></li>
+                  <li><a href="#">Виниловые наклейки</a></li>
+                  <li><a href="#">Аквапринт</a></li>
                 </ul>
               </div>
               <div class="col-auto">
                 <ul>
-                  <li class="footer-menu__main-item"><a href="#"></a></li>
-                  <li><a href="#"></a></li>
-                  <li><a href="#"></a></li>
-                  <li><a href="#"></a></li>
+                  <li class="footer-menu__main-item"><a href="#">Детейлинг</a></li>
+                  <li><a href="#">Полировка</a></li>
+                  <li><a href="#">Нанокерамика</a></li>
+                  <li><a href="#">Жидкое стекло</a></li>
                 </ul>
               </div>
               <div class="col-auto">
                 <ul>
-                  <li class="footer-menu__main-item"><a href="#"></a></li>
-                  <li><a href="#"></a></li>
-                  <li><a href="#"></a></li>
-                  <li><a href="#"></a></li>
-                  <li><a href="#"></a></li>
+                  <li class="footer-menu__main-item"><a href="#">Реклама на транспорте</a></li>
+                  <li><a href="#">Брендирование авто</a></li>
+                  <li><a href="#">Реклама на общественном транспорте</a></li>
+                  <li><a href="#">Внутрисалонная реклама</a></li>
+                  <li><a href="#">Магнитный винил</a></li>
                 </ul>
               </div>
               <div class="col-auto">
                 <ul>
-                  <li class="footer-menu__main-item"><a href="#"></a></li>
-                  <li class="footer-menu__main-item"><a href="#"></a></li>
-                  <li class="footer-menu__main-item"><a href="#"></a></li>
+                  <li class="footer-menu__main-item"><a href="#">Реклама на транспорте</a></li>
+                  <li class="footer-menu__main-item"><a href="#">Интерьерная печать</a></li>
+                  <li class="footer-menu__main-item"><a href="#">Тонировка зданий</a></li>
                 </ul>
               </div>
               <div class="col-auto">
                 <ul>
-                  <li class="footer-menu__main-item"><a href="#"></a></li>
-                  <li><a href="#"></a></li>
-                  <li><a href="#"></a></li>
-                  <li><a href="#"></a></li>
-                  <li><a href="#"></a></li>
+                  <li class="footer-menu__main-item"><a href="#">автограф</a></li>
+                  <li><a href="#">О компании</a></li>
+                  <li><a href="#">Услуги</a></li>
+                  <li><a href="#">Проекты</a></li>
+                  <li><a href="#">Контакты</a></li>
                 </ul>
               </div>
             </nav>
@@ -410,24 +477,24 @@
         </div>
         <div class="footer-bottom">
           <div class="container">
-            <div class="footer-bottom__row">
+            <div class="footer-bottom__row row light align-items-center justify-content-between flex-nowrap">
               <div class="col-auto">
                 <div class="logo"><a class="logo__link" href="/"><img class="logo__image" src="./img/logo.png" alt="#"></a></div>
               </div>
               <div class="col-auto">
-                <p class="copiright"><b>© 2002-2017 "Автограф</b>Центр автостайлинга, детейлинга и рекламы на транспорте в Иркутске и Улан-Удэ</p>
+                <p class="copyright"><b>© 2002-2017 "Автограф"</b>Центр автостайлинга, детейлинга и рекламы на транспорте в Иркутске и Улан-Удэ</p>
               </div>
               <div class="col-auto">
-                <p>Для частных лиц: <strong>34-71-57</strong> (пн-пт 9 – 19, сб-вс 11 – 17)</p>
+                <p>Для частных лиц: <strong>34-71-57</strong> <br>(пн-пт 9 – 19, сб-вс 11 – 17)</p>
                 <div class="social row no-gutters">
-                  <div class="col-auto"><a class="social__item" href="#"></a></div>
-                  <div class="col-auto"><a class="social__item" href="#"></a></div>
-                  <div class="col-auto"><a class="social__item" href="#"></a></div>
-                  <div class="col-auto"><a class="social__item" href="#"></a></div>
+                  <div class="col-auto"><a class="social__item" href="#"><img src="./img/social/1.svg"></a></div>
+                  <div class="col-auto"><a class="social__item" href="#"><img src="./img/social/2.svg"></a></div>
+                  <div class="col-auto"><a class="social__item" href="#"><img src="./img/social/3.svg"></a></div>
+                  <div class="col-auto"><a class="social__item" href="#"><img src="./img/social/4.svg"></a></div>
                 </div>
               </div>
               <div class="col-auto">
-                <p>Для компаний: <strong>33-94-33</strong> (пн-пт 9 – 18)</p>
+                <p>Для компаний: <strong>33-94-33</strong> <br>(пн-пт 9 – 18)</p>
               </div>
               <div class="col-auto"><a class="button" href="#">Заказать звонок</a></div>
             </div>

@@ -1,0 +1,73 @@
+.header {
+  background: url("../img/black_bg.jpg") repeat top left;
+}
+
+.header-top {
+  position: relative;
+  padding: 30px 0 15px;
+
+  &:before {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    opacity: 0.6;
+    background-color: #000000;
+    box-shadow: 0px 1px 1px 0 rgba(255, 255, 255, 0.5), inset 0px 1px 0 0 rgba(0, 0, 0, 0.1);
+  }
+}
+
+.header-bottom {
+  padding: 30px 0;
+
+  p {
+    font-size: 16px;
+
+    span {
+      display: block;
+      font-size: 12px;
+    }
+  }
+}
+
+.phone {
+  p {
+    text-align: right;
+  }
+
+  a {
+    font-size: 32px;
+    font-weight: 800;
+    text-align: left;
+    background-image: linear-gradient(to top, #c63f47, #e8460e 49%, #f97119), linear-gradient(#f15512, #f15512);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-left: 12px;
+  }
+}
+
+.main-menu {
+  li {
+    line-height: 1;
+    a {
+      font-size: 18px;
+      font-weight: 600;
+    }
+
+    & + li {
+      border-left: 2px solid #f15512;
+    }
+  }
+}
+
+.tagline {
+  max-width: 360px;
+}
+
+.social {
+  .col-auto + .col-auto {
+    margin-left: 15px;
+  }
+}

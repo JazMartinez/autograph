@@ -1,34 +1,34 @@
-header.header
+header.header.light
     .container
-        .header-top.row
+        .header-top.row.align-items-center.justify-content-between
             .col-auto
                 .logo
                     a(href="/").logo__link: img(src="./img/logo.png" alt="#").logo__image
-            .col-auto
+            .col-auto.main-menu-block
                 nav.main-menu
-                    ul
-                        li: a(href="#") О компании
-                        li: a(href="#") Услуги и цены
-                        li: a(href="#") Наши работы
-                        li: a(href="#") Контакты
+                    ul.row.justify-content-center
+                        li.col-auto: a(href="#") О компании
+                        li.col-auto: a(href="#") Услуги и цены
+                        li.col-auto: a(href="#") Наши работы
+                        li.col-auto: a(href="#") Контакты
             .col-auto
                 .social.row.no-gutters
-                    .col-auto: a(href="#").social__item
-                    .col-auto: a(href="#").social__item
-                    .col-auto: a(href="#").social__item
-                    .col-auto: a(href="#").social__item
-        .header-bottom.row
+                    .col-auto: a(href="#").social__item: img(src="./img/social/1.svg")
+                    .col-auto: a(href="#").social__item: img(src="./img/social/2.svg")
+                    .col-auto: a(href="#").social__item: img(src="./img/social/3.svg")
+                    .col-auto: a(href="#").social__item: img(src="./img/social/4.svg")
+        .header-bottom.row.align-items-center.justify-content-between
             .col-auto
                 p.tagline Центр автостайлинга, детейлинга и рекламы на транспорте в Иркутске и Улан-Удэ
             .col-auto
-                .phone
+                .phone.row.no-gutters.justify-content-between
                     p Для частных лиц
                         span пн-пт 9 – 19, сб-вс 11 – 17
                     a(href="#") 34-71-57
             .col-auto
-                .phone
+                .phone.row.no-gutters.justify-content-between
                     p Для компаний
                         span пн-пт 9 – 18
                     a(href="#") 33-94-33
             .col-auto
-                a(href="#").button Заказать звонок
+                a(href="#").button #[i.phone-icon] Заказать звонок
